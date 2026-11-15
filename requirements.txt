@@ -1,0 +1,22 @@
+# Core app
+streamlit
+python-dotenv
+requests
+
+# LangGraph and LangChain
+langgraph
+langgraph-checkpoint-sqlite
+langchain-core
+langchain-community
+langchain-groq
+langchain-tavily
+langchain-huggingface
+langchain-text-splitters==1.1.2
+
+# PDF and search (RAG)
+pypdf==6.13.2
+faiss-cpu==1.14.3
+sentence-transformers
+
+# Stock prices
+yfinance
